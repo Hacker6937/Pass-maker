@@ -5,7 +5,7 @@ class Main {
     Scanner in = new Scanner(System.in);
     System.out.print("How many random passwords do you want to generate? ");
     int total = in.nextInt();
-    System.out.print("Please tpye in 2 digits less than how long you want your random passwords to be ");
+    System.out.print("Please type in 2 digits less than how long you want your random passwords to be ");
     int length = in.nextInt();
     String[] randomPasswords = new String[total];
     for (int i = 0; i < total; i++) {
